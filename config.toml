@@ -1,0 +1,37 @@
+baseURL = 'http://ppiont.github.io'
+languageCode = 'en-us'
+title = 'Peter Piontek'
+themesDir = 'themes'
+theme = "m10c"
+paginate = 8
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[params]
+  author = "Peter Piontek"
+  description = "hi there"
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/ppiont"
+  [[params.social]]
+    icon = "gitlab"
+    name = "GitLab"
+    url = "https://gitlab.com/ppiont"
+
