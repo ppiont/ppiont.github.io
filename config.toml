@@ -1,10 +1,9 @@
-baseURL = 'http://ppiont.github.io'
+baseURL = 'https://ppiont.github.io/'
 languageCode = 'en-us'
 title = 'Peter Piontek'
 themesDir = 'themes'
 publishDir = 'docs'
 theme = "m10c"
-paginate = 8
 
 [menu]
   [[menu.main]]
