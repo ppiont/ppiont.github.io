@@ -2,7 +2,7 @@
 title: "Gløgg"
 date: 2022-10-31T20:47:52+01:00
 tags: ["gløgg", "glögg",  "glühwein", "mulled wine", "alcohol", "wine", "christmas", "winter",  "recipe"]
-draft: true
+draft: false
 ---
 
 Interpolated and translated from [this](https://www.dr.dk/mad/opskrift/glogg-med-rom-vodka-og-calvados) and [this](https://www.dr.dk/mad/opskrift/danmarks-bedste-glogg-2018) recipe by [Albert Hald-Bjerrum and Wolfgang Sürth](https://www.noorbohandelen.dk/), winners of the Unofficial Danish Gløgg Championships 2018.
@@ -59,5 +59,3 @@ Serves: It depends on the party
 6. Heat the Gløgg to serving temperature (no more than 70&deg;C, or the alcohol will begin to evaporate!!). Adjust taste with dark rum and honey as needed.
 
 7. Put the sultanas and almond slivers into cups, and add a slice of orange (maybe a half slice if your glasses are narrow). Pour the Gløgg over the top, and serve.
-
-
