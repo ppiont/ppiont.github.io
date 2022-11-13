@@ -37,13 +37,13 @@ jobs:
 
       - name: Build
         run: hugo --minify
-        
+
       - name: Create CNAME file
-        run: echo 'www.peterp.dev' > public/CNAME
+        run: echo 'www.peterp.dev' > docs/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./docs
