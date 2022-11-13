@@ -9,9 +9,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    # concurrency:
-    #   group: ${{ github.workflow }}-${{ github.ref }}
-
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -24,13 +23,13 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      # - name: Cache
-      #   uses: actions/cache@v2
-      #   with:
-      #     path: /tmp/hugo_cache
-      #     key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-hugomod-0
+      - name: Cache
+        uses: actions/cache@v2
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
 
       - name: Build
         run: hugo --minify
