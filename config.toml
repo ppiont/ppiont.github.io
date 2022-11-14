@@ -2,7 +2,7 @@ baseURL = 'www.peterp.dev'
 languageCode = 'en-us'
 title = 'Peter Piontek'
 themesDir = 'themes'
-publishDir = 'docs'
+publishDir = 'public'
 theme = "m10c"
 
 [menu]
