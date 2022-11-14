@@ -1,4 +1,4 @@
-baseURL = 'https://ppiont.github.io/'
+baseURL = 'www.peterp.dev'
 languageCode = 'en-us'
 title = 'Peter Piontek'
 themesDir = 'themes'
