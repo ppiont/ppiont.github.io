@@ -1,4 +1,4 @@
-baseURL = 'www.peterp.dev'
+baseURL = 'https://www.peterp.dev/'
 languageCode = 'en-us'
 title = 'Peter Piontek'
 themesDir = 'themes'
